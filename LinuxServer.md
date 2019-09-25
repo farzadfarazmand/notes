@@ -1,3 +1,15 @@
+### Linux
+* Enable proxy for Yum!
+```
+vim /etc/yum.conf
+```
+then add these lines to the file and save it
+```
+proxy=http://<Proxy-Server-IP-Address>:<Proxy_Port>
+proxy_username=<Proxy-User-Name>
+proxy_password=<Proxy-Password> 
+```
+
 ### Tmux cheat sheet
 * create new session :
 ```
