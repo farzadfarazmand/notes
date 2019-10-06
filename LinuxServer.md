@@ -39,3 +39,17 @@ f  find window
 d  detach
 ?  list shortcuts
 ```
+
+### Git
+* Enable proxy for Git!
+```
+git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080
+```
+* Check git proxy
+```
+git config --global --get http.proxy
+```
+* Disable git proxy
+```
+git config --global --unset http.proxy
+```
